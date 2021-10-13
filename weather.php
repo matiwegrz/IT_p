@@ -30,7 +30,7 @@ session_start();
 	
 	?>
 	
-	
+	<a href="logout.php">Logout</a>
 
 </body>
 

@@ -19,7 +19,10 @@
 			$x=$result->num_rows;
 			if($x==1)
 			{
+				$_SESSION['logged']=true;
+				
 				$row = $result->fetch_assoc();
+				$_SESSION['id']=$row['id'];
 				$_SESSION['user'] = $row['user'];
 				
 				$result->free_result();
