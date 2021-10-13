@@ -2,16 +2,17 @@ body
 {
 	background-color:#303030;
 	font-family: 'Lato', sans-serif;
+	
 }
 #container
 {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
+	color:#ffffff;
 }
 .heading
 {
 	color:#ffffff;
 	
 }
-

@@ -1,3 +1,8 @@
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE HTML>
 <html lang="eng">
 <head>
@@ -25,10 +30,7 @@
 
 <body>
 	
-	<?php
-		echo "Witaj świecie";
-		
-	?>
+	
 	
 	<div id="container">
 	
@@ -38,6 +40,17 @@
 			</h1>
 			
 		</div>
+	<!Login to site>
+	<form action="logging.php" method="post">
+		Login:<br/><input type="text" name="login" /> <br/>
+		Password: <br/><input type="password" name="pass"/><br/><br/>
+		<input type="submit"/>
+		
+	</form>
+	
+	<?php
+	echo $_SESSION['err'];
+	?>
 	
 	</div>
 
