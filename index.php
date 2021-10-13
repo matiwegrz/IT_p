@@ -24,7 +24,11 @@
 </head>
 
 <body>
-
+	
+	<?php
+		echo "Witaj świecie";
+		
+	?>
 	
 	<div id="container">
 	
